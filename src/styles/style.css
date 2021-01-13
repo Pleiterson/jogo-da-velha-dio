@@ -3,9 +3,10 @@
 body {
     text-align: center;
     font-family: 'Roboto';
+    background-color: #a1a8ab;
 }
 
-.quadrado {
+.square {
     text-align: center;
     width: 50px;
     background: #eee;
@@ -28,4 +29,18 @@ button {
     height: 30px;
     background: #eee;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	text-align: center;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
 }
